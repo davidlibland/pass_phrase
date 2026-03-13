@@ -1,0 +1,12 @@
+[package]
+name = "pass_phrase"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.29"
+rand = "0.8"
+
+[package.metadata.bundle]
+name = "PassPhrase"
+identifier = "com.utilities.pass_phrase"
