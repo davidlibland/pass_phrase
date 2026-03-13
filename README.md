@@ -14,6 +14,20 @@ A native desktop app for generating secure, memorable passphrases using the [EFF
 - **Uppercase** — capitalizes the first letter of each word
 - Output is selectable and copyable directly from the text area
 
+## OS-Native Bundle
+
+To build an OS-Native bundle, you need to install `cargo-bundle` via:
+```sh
+cargo install cargo-bundle
+```
+
+Then simply bundle the app:
+
+```sh
+cargo bundle --release
+```
+This will output the OS-Native bundle in `target/release/bundle/`.
+
 ## Building
 
 Requires [Rust](https://rustup.rs/) (edition 2024).
