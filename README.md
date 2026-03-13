@@ -2,6 +2,8 @@
 
 A native desktop app for generating secure, memorable passphrases using the [EFF large wordlist](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases).
 
+![Gui Overview](gui.png)
+
 ## Features
 
 - Generate multiple passphrases at once
